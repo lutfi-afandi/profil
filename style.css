@@ -11,3 +11,23 @@ body
 .card {
     color: rgb(51, 51, 51);
 }
+
+.navbar 
+{
+    padding-left: 0px;
+    background-color: #2196f3;
+    color: #2196f3 !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+.navbar > .navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: white;
+      }
+}
